@@ -24,7 +24,7 @@ $npm run dev
 ```
 After running the web server, your-vue-project will start start the server on port 8080. The browser is ready.
 
-![](http://imgur.com/ggJ6rRg)
+![](http://i.imgur.com/ggJ6rRg.png)
 
 ## pug
 Because we want to compile our pug to html on the brower. We use npm to install pug into our project.
@@ -128,11 +128,11 @@ a
 ## Happy coding
 Now save the file. If you still have `npm run dev` running, Webpack will reload your changes automatically for you! In the browser `http://localhost:8080/` check out the below view if you will success compile.
 
-![](http://imgur.com/ggJ6rRg)
+![](http://i.imgur.com/ggJ6rRg.png)
 
 ## Reference
 * [vuejs/vue-loader](https://github.com/vuejs/vue-loader)
-* [gitBook](https://loulanyijian.github.io/vue-cli-doc-Chinese/pre-processors.html)
+* [gitBook vue-cli webpack模板中文文档](https://loulanyijian.github.io/vue-cli-doc-Chinese/pre-processors.html)
 * [levibostian/webpack, Tachyons, pug, Vue.js web app.
 Raw](https://gist.github.com/levibostian/96cc285d4235d73f09cdc22f2590ccba)
 * [Vue.js 2 Quickstart Tutorial 2017](https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2)
