@@ -1,21 +1,34 @@
 # vue-cli-setting
 
-> A Vue.js project
+> A Vue.js project support pug、sass/scss
 
-## Build Setup
+---
 
-``` bash
-# install dependencies
-npm install
+## Using vue-loader to build .vue components
+[vue-cli](https://github.com/vuejs/vue-cli) allows you to setup a basic Webpack + `vue-loader` project for you, with `.vue` files and hot-reloading working out of the box!
 
-# serve with hot reload at localhost:8080
-npm run dev
+for example with mac command line:
+```javascript=
+//global setting to setup vue-cli
+$ npm install -g vue-cli
 
-# build for production with minification
-npm run build
+//build up a vue project
+$ vue init webpack your-vue-project-name
 
-# build for production and view the bundle analyzer report
-npm run build --report
+//cd the directory to your-vue-project-name
+$ cd your-vue-project-name
+
+//Start installing the dependencies by using npm again
+$ npm install
+
+//start the web server in development mode by using npm
+$npm run dev
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+---
+
+## Reference
+[vuejs/vue-loader](https://github.com/vuejs/vue-loader)
+[levibostian/webpack, Tachyons, pug, Vue.js web app.
+Raw](https://gist.github.com/levibostian/96cc285d4235d73f09cdc22f2590ccba)
+[Vue.js 2 Quickstart Tutorial 2017](https://medium.com/codingthesmartway-com-blog/vue-js-2-quickstart-tutorial-2017-246195cfbdd2)
